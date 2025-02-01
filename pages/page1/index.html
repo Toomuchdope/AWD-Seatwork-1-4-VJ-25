@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Player Management Leaderboard">
+    <title>AWD-Seatwork-1-4-HD-25</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</script>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+        <style>
+        body {
+          font-family: "Audiowide", sans-serif;
+        }
+        </style>
+        </head>
+</head>
+<body>
+    <header class="tech-header">
+        <div class="logo">
+            <img src="./assets/img/psp logo.jpg" alt="Logo">
+        </div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="../../index.html">LANDING PAGE</a></li>
+                <li><a href="../page1/index.html">PLAYER MANAGER</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section class="hero">
+        <video autoplay muted loop id="bg-video">
+            <source src="./assets/Videos/psp baclground.mp4" type="video/mp4">
+        </video>
+    <main>
+</head>
+<body>
+    <title>Player Management</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Add New Player (Max 10)</h1>
+        <div class="form-group">
+            <input type="text" id="playerName" placeholder="PLAYER NAME" maxlength="50">
+            <input type="number" id="score" placeholder="SCORE" min="0">
+            <input type="number" id="level" placeholder="LEVEL" min="1">
+            <button id="addPlayerButton">ADD PLAYER</button>
+        </div>
+        
+        <h2>Player Rankings</h2>
+        <select id="sortOptions">
+            <option value="name">Sort by Name</option>
+            <option value="score">Sort by Score</option>
+            <option value="level">Sort by Level</option>
+        </select>
+        
+        <div id="playerList"></div>
+    </div>
+    <script src="../page1/assets/js/scripts.js"></script>
+</body>
+</html>

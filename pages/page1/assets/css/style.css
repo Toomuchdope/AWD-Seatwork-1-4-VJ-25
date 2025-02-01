@@ -1,0 +1,190 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-family: "Audiowide", sans-serif;
+    color: #fff;
+    overflow: hidden;
+}
+
+/* Header styles */
+.tech-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: transparent; /* Remove the background */
+    color: white; /* Keep the text color */
+    box-shadow: none; /* Remove any shadow */
+    border: none; /* Ensure no border is applied */
+    transition: all 0.3s ease;
+}
+
+.tech-header .logo img {
+    height: 40px;
+    transition: transform 0.3s ease;
+}
+
+.tech-header .logo img:hover {
+    transform: scale(1.1);
+}
+
+.tech-header .navigation ul {
+    display: flex;
+}
+
+.tech-header .navigation ul li {
+    margin: 0 15px;
+}
+
+.tech-header .navigation ul li a {
+    color: white;
+    font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 4px;
+    transition: background-color 0.3s ease, color 0.3s ease, transform 0.3s ease;
+}
+
+.tech-header .navigation ul li a:hover {
+    background-color: #555;
+    transform: scale(1.05);
+}
+
+/* Hero Section styles */
+.hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+}
+
+.hero video#bg-video {
+    position: fixed; /* Fix the video in place */
+    top: 0;
+    left: 0;
+    width: 100vw; /* Full viewport width */
+    height: 100vh; /* Full viewport height */
+    object-fit: cover; /* Cover the entire area while maintaining aspect ratio */
+    z-index: -1; /* Place it behind other content */
+}
+
+.hero-content {
+    z-index: 1;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
+}
+
+.hero-content .cta {
+    padding: 10px 20px;
+    background-color: darkred;
+    color: white;
+    border-radius: 4px;
+    text-transform: uppercase;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.hero-content .cta:hover {
+    background-color: lightcoral;
+}
+
+/* Player Management Styles */
+.container {
+    background: rgba(0, 0, 0, 0); /* Set background to fully transparent */
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+    margin: 20px auto;
+    box-shadow: none; /* Remove shadow for a cleaner look */
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+input {
+    padding: 10px;
+    margin: 5px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px;
+    background-color: rgba(255, 64, 129, 0.8); /* Semi-transparent button background */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: rgba(245, 0, 87, 0.8); /* Semi-transparent hover effect */
+}
+
+#playerList {
+    margin-top: 20px;
+}
+
+.player-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    background: rgba(255, 255, 255, 0.1); /* Keep this semi-transparent */
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .tech-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .tech-header .navigation ul {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .tech-header .navigation ul li {
+        margin: 10px 0;
+        text-align: center;
+        width: 100%;
+    }
+
+    .tech-header .navigation ul li a {
+        display: block;
+        width: 100%;
+    }
+
+    .tech-content h1 {
+        font-size: 2.5rem;
+    }
+
+    .tech-content p {
+        font-size: 1.2rem;
+    }
+
+    .container {
+        width: 90%; /* Adjust for smaller screens */
+    }
+}
