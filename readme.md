@@ -6,9 +6,9 @@
 <div align="center">
   <a href="https://github.com/zyx-0314/">
   <!-- TODO: If you want to add logo or banner you can add it here -->
-    <img src="./assets/img/logo ball.jpg" alt="Nyebe" width="130" height="100">
+    <img src="./assets/img/psp logo.jpg" alt="Nyebe" width="130" height="100">
   </a>
-<!-- TODO: Change Title to the name of the title of your Project -->
+<!-- TODO: Player Management -->
   <h3 align="center">Player Management</h3>
 </div>
 <!-- TODO: Make a short description -->
@@ -20,16 +20,15 @@
 
 <!-- TODO: Change the zyx-0314 into your github username  -->
 <!-- TODO: Change the WD-Template-Project into the same name of your folder -->
-![](https://visit-counter.vercel.app/counter.png?page=zyx-0314/WD-Template-Project)
+![](https://visit-counter.vercel.app/counter.png?page=Toomuchdope/AWD-Seatwork-1-4-VJ-25)
 
-[![wakatime](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8.svg)](https://wakatime.com/badge/user/018dd99a-4985-4f98-8216-6ca6fe2ce0f8/project/63501637-9a31-42f0-960d-4d0ab47977f8)
+[![wakatime](https://wakatime.com/badge/user/3ada2a98-2f9d-4f58-a659-147297308f4c/project/fce2520d-61e1-4d0a-a0e1-1b1974b436c9.svg)](https://wakatime.com/badge/user/3ada2a98-2f9d-4f58-a659-147297308f4c/project/fce2520d-61e1-4d0a-a0e1-1b1974b436c9)
 
 ---
 
 <br />
 <br />
 
-<!-- TODO: If you want to add more layers for your readme -->
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -59,13 +58,13 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+The Player Management project is designed to efficiently manage and organize player data, allowing users to add, sort, and view rankings based on customizable criteria such as player name, score, and level. This web application serves as a user-friendly platform for tracking player performance and facilitating competition.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+
+- A web-based application for managing player information and rankings.
+- To streamline the addition of new players, track scores, and display rankings, enhancing the competitive experience.
+- User-friendly interfaces for adding players and viewing rankings.
+
 
 ### Key Components
 <!-- TODO: List of Key Components -->
