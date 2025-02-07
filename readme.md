@@ -113,11 +113,12 @@ AWD-SEATWORK-1-4-VJ-25
 |     └─ index.html
 └─ index.html
 └─ readme.md
+```
 
 ## Resources
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| videoplayback | Background video of the landing page. | https://youtu.be/UvXVA_ZLAWo |
-| psp background | Background video of the page 1. | https://youtu.be/5qQssqOmBZw |
+|videoplayback|Background video of the landing page.|https://youtu.be/UvXVA_ZLAWo|
+|psp background|Background video of the page 1.|https://youtu.be/5qQssqOmBZw|
