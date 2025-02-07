@@ -11,10 +11,7 @@
 <!-- TODO: Player Management -->
   <h3 align="center">Player Management</h3>
 </div>
-<!-- TODO: Make a short description -->
-<div align="center">
-  Short Description. (Optional)
-</div>
+
 
 <br />
 
@@ -58,20 +55,19 @@
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-The Player Management project is designed to efficiently manage and organize player data, allowing users to add, sort, and view rankings based on customizable criteria such as player name, score, and level. This web application serves as a user-friendly platform for tracking player performance and facilitating competition.
+Description of the project in details.
 
+Guiding Question:
 
-- A web-based application for managing player information and rankings.
-- To streamline the addition of new players, track scores, and display rankings, enhancing the competitive experience.
-- User-friendly interfaces for adding players and viewing rankings.
+- Explore effective methods for displaying player leaderboards to enhance user experience.
+- Showcase player statistics alongside rankings to provide a comprehensive view of performance.
 
 
 ### Key Components
 <!-- TODO: List of Key Components -->
 <!-- The following are just sample -->
-- MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+- MultiPage Website
+
 
 ### Technology
 <!-- TODO: List of Technology Used -->
@@ -91,31 +87,37 @@ The Player Management project is designed to efficiently manage and organize pla
 7. File Structure to follow below.
 
 ```
-WD-ProjectName
+AWD-SEATWORK-1-4-VJ-25
 └─ assets
 |   └─ css
 |   |   └─ style.css
 |   └─ img
-|   |   └─ fileWith.jpeg/.jpg/.webp/.png
-|   └─ js
-|       └─ script.js
+|   |   └─ psp logo.jpg
+|   |
+|   └─ video
+|       └─ videoplayback.mp4,
+|
 └─ pages
-|  └─ pageName
+|  └─ page1
 |     └─ assets
 |     |  └─ css
 |     |  |  └─ style.css
 |     |  └─ img
-|     |  |  └─ fileWith.jpeg/.jpg/.webp/.png
+|     |  |  └─ psp logo.jpg
 |     |  └─ js
 |     |     └─ script.js
+|     |  |
+|     |  └─ video
+|     |     └─ psp background.mp4
+|     |
 |     └─ index.html
 └─ index.html
 └─ readme.md
-```
 
 ## Resources
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
 |-|-|-|
-| Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
+| videoplayback | Background video of the landing page. | https://youtu.be/UvXVA_ZLAWo |
+| psp background | Background video of the page 1. | https://youtu.be/5qQssqOmBZw |
